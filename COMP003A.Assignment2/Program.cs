@@ -8,7 +8,8 @@
             Console.WriteLine("Please enter your first name");
             string inputName = Console.ReadLine();
 
-
+            Console.WriteLine("Please enter last name");
+            string inputName2 = Console.ReadLine();
         }
     }
 }
