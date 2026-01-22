@@ -16,6 +16,8 @@
 
             Console.WriteLine("Please enter another number");
             string inputNumber2 = Console.ReadLine();
+
+            Console.WriteLine("users name:" + inputName + " " + inputName2);
         }
     }
 }
