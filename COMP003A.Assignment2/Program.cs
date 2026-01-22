@@ -22,8 +22,8 @@
  
             // examples of concatenation and interpolation to achieve the same outcome
 
-            Console.WriteLine("Concatenation:" + " " + inputName + " " + inputName2);
-            Console.WriteLine($"Interpolation: {inputName} {inputName2}");
+            Console.WriteLine("Concatenation:" + " " + inputName2 + "," + inputName);
+            Console.WriteLine($"Interpolation: {inputName2},{inputName}");
 
             // using double to store number and double.Parse to convert numeric inputs from string
 
@@ -42,7 +42,7 @@
 
             double quotient = numb1 / numb2;
 
-            // WriteLines tro display the results of basic arithmetic
+            // WriteLines to display the results of basic arithmetic
 
             Console.WriteLine("Results\n ------------");
 
@@ -55,6 +55,10 @@
             Console.WriteLine($"Product: {product}");
 
             Console.WriteLine($"Quotient: {quotient}");
+
+            // WriteLines to display comparisons of user numbers entered
+
+
 
 
         }
