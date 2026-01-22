@@ -18,9 +18,9 @@
             string inputNumber2 = Console.ReadLine();
 
             Console.WriteLine("Name Formats");
-
+            // examples of concatenation and interpolation to achieve the same outcome
             Console.WriteLine("Concatenation:" + " " + inputName + " " + inputName2);
-            Console.WriteLine($"{inputName} {inputName2}");
+            Console.WriteLine($"Interpolation: {inputName} {inputName2}");
         }
     }
 }
