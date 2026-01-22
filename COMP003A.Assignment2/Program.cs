@@ -17,7 +17,10 @@
             Console.WriteLine("Please enter another number");
             string inputNumber2 = Console.ReadLine();
 
-            Console.WriteLine("users name:" + inputName + " " + inputName2);
+            Console.WriteLine("Name Formats");
+
+            Console.WriteLine("Concatenation:" + " " + inputName + " " + inputName2);
+            Console.WriteLine($"{inputName} {inputName2}");
         }
     }
 }
