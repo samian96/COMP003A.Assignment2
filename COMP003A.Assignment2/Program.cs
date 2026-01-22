@@ -18,7 +18,7 @@
             Console.WriteLine("Please enter another number");
             string inputNumber2 = Console.ReadLine();
 
-            Console.WriteLine("Name Formats\n ------------");
+            Console.WriteLine("\nName Formats\n ------------");
  
             // examples of concatenation and interpolation to achieve the same outcome
 
@@ -44,7 +44,7 @@
 
             // WriteLines to display the results of basic arithmetic
 
-            Console.WriteLine("Results\n ------------");
+            Console.WriteLine("\nResults\n ------------");
 
             Console.WriteLine($"Sum: {sum}");
 
@@ -57,6 +57,12 @@
             Console.WriteLine($"Quotient: {quotient}");
 
             // WriteLines to display comparisons of user numbers entered
+
+            Console.WriteLine("\nComparisons\n ------------");
+
+            Console.WriteLine($"{numb1} > {numb2}: {numb1 > numb2}");
+
+            Console.WriteLine($"{numb1} == {numb2}: {numb1 == numb2}");
 
 
 
