@@ -42,6 +42,20 @@
 
             double quotient = numb1 / numb2;
 
+            // WriteLines tro display the results of basic arithmetic
+
+            Console.WriteLine("Results\n ------------");
+
+            Console.WriteLine($"Sum: {sum}");
+
+            Console.WriteLine($"Average: {average}");
+
+            Console.WriteLine($"Difference: {difference}");
+
+            Console.WriteLine($"Product: {product}");
+
+            Console.WriteLine($"Quotient: {quotient}");
+
 
         }
     }
