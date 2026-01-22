@@ -25,10 +25,13 @@
             Console.WriteLine("Concatenation:" + " " + inputName + " " + inputName2);
             Console.WriteLine($"Interpolation: {inputName} {inputName2}");
 
-            // using double to store number and double.Parse to convert string to number with decimals
+            // using double to store number and double.Parse to convert numeric inputs from string
 
             double numb1 = double.Parse(inputNumber);
             double numb2 = double.Parse(inputNumber2);
+
+            double sum = numb1 + numb2;
+            double average = sum / 2;
 
 
         }
