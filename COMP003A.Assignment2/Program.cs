@@ -10,6 +10,12 @@
 
             Console.WriteLine("Please enter last name");
             string inputName2 = Console.ReadLine();
+
+            Console.WriteLine("Please enter number");
+            string inputNumber = Console.ReadLine();
+
+            Console.WriteLine("Please enter another number");
+            string inputNumber2 = Console.ReadLine();
         }
     }
 }
