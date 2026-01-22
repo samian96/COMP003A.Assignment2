@@ -31,7 +31,10 @@
             double numb2 = double.Parse(inputNumber2);
 
             double sum = numb1 + numb2;
-            double average = sum / 2;
+
+            double average = (numb1 + numb2) / 2.0;
+
+            double difference = numb1 - numb2;
 
 
         }
