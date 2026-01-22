@@ -17,10 +17,12 @@
             Console.WriteLine("Please enter another number");
             string inputNumber2 = Console.ReadLine();
 
-            Console.WriteLine("Name Formats");
+            Console.WriteLine("Name Formats\n ------------");
+ 
             // examples of concatenation and interpolation to achieve the same outcome
             Console.WriteLine("Concatenation:" + " " + inputName + " " + inputName2);
             Console.WriteLine($"Interpolation: {inputName} {inputName2}");
+
         }
     }
 }
