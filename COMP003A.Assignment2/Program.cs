@@ -64,6 +64,8 @@
 
             Console.WriteLine($"{numb1} == {numb2}: {numb1 == numb2}");
 
+            Console.WriteLine($"{numb1} != {numb2}: {numb1 != numb2}");
+
 
 
 
