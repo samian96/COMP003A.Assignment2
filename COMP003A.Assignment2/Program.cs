@@ -30,11 +30,17 @@
             double numb1 = double.Parse(inputNumber);
             double numb2 = double.Parse(inputNumber2);
 
+            // doubles to execute basic arithmetic for the user input values
+
             double sum = numb1 + numb2;
 
             double average = (numb1 + numb2) / 2.0;
 
             double difference = numb1 - numb2;
+
+            double product = numb1 * numb2;
+
+            double quotient = numb1 / numb2;
 
 
         }
